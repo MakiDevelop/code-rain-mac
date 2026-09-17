@@ -1,9 +1,13 @@
-# code-rain-mac
+# code-rain-mac — The Matrix Code Rain screensaver for macOS
 
-Matrix-style code rain screensaver for macOS, written as a single-file Swift
-menu-bar app. No `.saver` bundle, no System Settings dance: it runs in the
-background, covers every screen after an idle timeout, and gets out of the way
-on the first key press or mouse move.
+**This is a screensaver that recreates the iconic "code rain" (digital rain)
+from *The Matrix*: green katakana and digits falling down a black screen.**
+
+![The Matrix Code Rain screensaver running on macOS](docs/screenshot.png)
+
+It is built as a single-file Swift menu-bar app rather than a `.saver` bundle.
+No System Settings dance: it runs in the background, covers every screen after
+an idle timeout, and gets out of the way on the first key press or mouse move.
 
 Windows 10 / 11 port (native `.scr`): [code-rain-win](https://github.com/MakiDevelop/code-rain-win)
 
