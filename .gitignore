@@ -1,0 +1,11 @@
+# SwiftPM build artefacts
+.build/
+build/
+*.xcodeproj
+.swiftpm/
+
+# Windows port lives in its own repo: https://github.com/MakiDevelop/code-rain-win
+windows/
+
+# macOS
+.DS_Store
